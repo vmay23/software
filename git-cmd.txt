@@ -7,13 +7,24 @@ git config --global user.name "your_own_name"										//let us know who are you
 git status																											//list the status about your files
 
 
-git comit -m "first commit"																					//
+git comit -m "initial commit" 																			//
 git comit -m "this file contains the new features: bla bla bla " 		//
 
 
 git add "file.extension"											//add this specific filein your repository
 git add .																			//add all files, from specific folder, in your respository
 
+
+
+/*
+
+   GENETARING A NEW SSH KEY
+   https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+*/
+
+git remote add origin https://github.com/your_user_name/your_repository 		//let us know which repository we must send your files...i
+git push --set-upstream origin master																				//initial, we send the files to the master branch
+git push				//
 
 
 
