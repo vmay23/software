@@ -1,0 +1,22 @@
+sudo apt install -y git-all																			//install git and all resources by linux terminal (debian)
+
+git int																													//after choose a folder, becomes this folder as the main repository file management
+git config --global user.email "your_email@any_site.com"	  		//not to sync on your github repository yet
+git config --global user.name "your_own_name"										//let us know who are you (and who do/did any commits using this terminal)
+
+git status																											//list the status about your files
+
+
+git comit -m "first commit"																					//
+git comit -m "this file contains the new features: bla bla bla " 		//
+
+
+git add "file.extension"											//add this specific filein your repository
+git add .																			//add all files, from specific folder, in your respository
+
+
+
+
+
+
+
